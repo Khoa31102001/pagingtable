@@ -1,0 +1,55 @@
+td{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+}
+
+tbody tr:nth-child(2n+1){
+  background-color: #ccc;
+}
+
+#dtBasicExample_paginate{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.dataTables_length select{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+  border-radius: 1rem;
+}
+#dtBasicExample_filter{
+  display: flex;
+  justify-content: flex-end;
+}
+
+#dtBasicExample_filter > label > input[type = "search"]{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(203 213 225 / var(--tw-border-opacity));
+  border-radius: 0.2rem;
+  margin: 0.5rem;
+  margin-right: 0;
+}
+
+.previous{
+  padding: 0 1rem;
+  color: #ccc;
+}
+.next{
+  padding: 0 1rem;
+}
+
+.paginate_button{
+  padding: 0 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.current{
+  background-color: blue;
+  color: #fff;
+}
+.dataTables_info{
+  margin: 1rem 0;
+}
